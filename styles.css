@@ -1,0 +1,32 @@
+* {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+button {
+    height: 30px;
+    width: 60px;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: purple;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    -webkit-user-drag: none; /* Запрет перетаскивания изображения */
+    -webkit-user-select: none; /* Запрет выделения текста */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+iframe {
+    height: auto;
+    width: auto;
+}
