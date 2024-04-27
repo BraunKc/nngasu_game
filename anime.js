@@ -15,8 +15,8 @@ btn.addEventListener('mouseenter', () => {
 anime({
     targets: btn,
     backgroundColor: randomColor,
-    translateX: () => Math.random() * 250,
-    translateY: () => Math.random() * 250,
+    translateX: () => Math.random() * 700,
+    translateY: () => Math.random() * 700,
     easing: "easeOutQuint",
     duration: 500
   })
